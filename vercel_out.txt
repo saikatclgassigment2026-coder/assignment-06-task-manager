@@ -1,0 +1,68 @@
+Vercel CLI 59.20.0 (Node.js 20.17.0)
+Loading teams…
+
+  Directory       /media/deepdp/New Volume/Assingment/Disha/assignment-06-task-manager
+
+Searching for existing projects…
+
+  Detected Vite (Build Command: vite build, Output Directory: dist)
+
+✓ Created         student-d982/assignment-06-task-manager
+> Connecting GitHub repository: https://github.com/dishabhowmick141-coder/assignment-06-task-manager
+Error: Failed to link dishabhowmick141-coder/assignment-06-task-manager. You need to add a Login Connection to your GitHub account first. (400)
+Visit https://vercel.com/docs/accounts/create-an-account#login-methods-and-connections for more information.
+Deploying student-d982/assignment-06-task-manager
+Uploading [--------------------] (0.0B/6.3KB)
+Uploading [======--------------] (2.0KB/6.3KB)
+Uploading [====================] (6.3KB/6.3KB)
+  Inspect         https://vercel.com/student-d982/assignment-06-task-manager/7iLYRFK4y3fgCLEqwsQygmGpxmbV
+  Production      https://assignment-06-task-manager-fx7z8wruv-student-d982.vercel.app
+Building…
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Retrieving list of deployment files...
+Previous build caches not available.
+Downloading 33 deployment files...
+Running "vercel build"
+Vercel CLI 59.16.0
+Installing dependencies...
+Installing dependencies...
+added 29 packages in 3s
+10 packages are looking for funding
+run `npm fund` for details
+Running "npm run build"
+> assignment-06-task-manager@0.0.0 build
+> vite build
+[2K[1A[2K[G  Production      https://assignment-06-task-manager-fx7z8wruv-student-d982.vercel.app
+Completing…
+▲ Aliased         https://assignment-06-task-manager-omega.vercel.app
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_7iLYRFK4y3fgCLEqwsQygmGpxmbV",
+    "url": "https://assignment-06-task-manager-fx7z8wruv-student-d982.vercel.app",
+    "inspectorUrl": "https://vercel.com/student-d982/assignment-06-task-manager/7iLYRFK4y3fgCLEqwsQygmGpxmbV",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_7iLYRFK4y3fgCLEqwsQygmGpxmbV"
+  },
+  "message": "Deployment assignment-06-task-manager-fx7z8wruv-student-d982.vercel.app ready.",
+  "next": [
+    {
+      "command": "vercel git connect",
+      "when": "Automatically deploy changes on every push"
+    },
+    {
+      "command": "vercel curl https://assignment-06-task-manager-fx7z8wruv-student-d982.vercel.app",
+      "when": "Verify deployment, including when Deployment Protection is enabled"
+    },
+    {
+      "command": "vercel inspect assignment-06-task-manager-fx7z8wruv-student-d982.vercel.app",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod",
+      "when": "Promote to production"
+    }
+  ]
+}
